@@ -9,7 +9,7 @@ int main (){
 		cout << "Insert height: " << endl;
 			cin >> height;
 		
-//hola			for (int fila = 1; fila <= height; fila++){
+		for (int fila = 1; fila <= height; fila++){
 					for (int i = 1; i <= height-fila; i++){
 							cout << " ";
 					}
